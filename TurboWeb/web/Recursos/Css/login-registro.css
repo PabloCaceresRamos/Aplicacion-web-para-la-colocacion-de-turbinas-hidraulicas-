@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-mar-2021, 18:13:11
+    Author     : pablo
+*/
+
+body{
+    height: 100%;
+}
+.imagenFondo{
+    position: absolute;
+    z-index: -1;     
+}
+
+.p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ventana{
+    background: white;
+   margin-top: 10%;
+   margin-bottom: 14%;
+}
+
+.ventanaR{
+    background: white;
+   margin-top: 6%;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.campo{
+    display: block;
+    clear: both;
+    margin: 10px 50px 10px 50px;
+    width: 300px;
+    height: 50px;
+    background: #E8E8E8;
+    border: none;
+    text-align: center;
+}
+
+.campoR{
+    display: block;
+    clear: both;
+    margin: 20px 50px 20px 50px;
+    width: 300px;
+    height: 50px;
+    background: #E8E8E8;
+    border: none;
+    text-align: center;
+}
+
+.enviar{
+    display: block;
+    margin: 10px 50px 10px 50px;
+    width: 300px;
+    height: 50px;
+    background: #0CC4FC;
+    border: none;
+    color: white;
+}
+
+.enviarCorreo{
+     display: block;
+    margin: 10px 50px 30px 50px;
+    width: 300px;
+    height: 50px;
+    background: #0CC4FC;
+    border: none;
+    color: white;
+}
+
+
+
+.pie{
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+}
+
+
+#error{
+    text-align: center;
+    color: red;
+   /* display: none;*/
+}
+
+#errorServidor{
+    text-align: center;
+    color: red;
+}
+
+.mensaje{
+    display: block;
+    clear: both;
+    margin: 0px 50px 0px 50px;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+.mensajeTiempo{
+    display: block;
+    clear: both;
+    margin: 40px 50px 0px 50px;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+.mensajeTiempo2{
+    display: block;
+    clear: both;
+    margin: 5px 50px 0px 50px;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#botonCorreo{
+    display: none;
+}
+
+

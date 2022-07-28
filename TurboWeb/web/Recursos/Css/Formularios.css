@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-mar-2021, 18:32:27
+    Author     : pablo
+*/
+
+.logo{
+    clear: both;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.divImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{  
+    padding-left: 5%;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(224,255,255,0.8);
+}
+
+.pPortada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pf{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.f{
+    margin-top: 7%;
+}
+
+.f1{
+    margin-top: 2%;
+}
+
+.campoFormulario{
+    text-align: center;
+    margin: 15% auto 1% auto;
+}
+
+.importante{
+    text-align: center;
+    background: rgba(210,255,255,0.8);
+    padding: 10%;
+}
+
+.etiqueta{
+    display: block;
+    clear: both;
+    margin-bottom: 3%;
+    
+}
+.etiqueta2{
+    display: block;
+    clear: both;
+    font-size: 70%;
+    margin-top: 2%;
+}
+
+#e2f,#e2i{
+    margin-top: -1%;
+}
+
+.enlaceGF{
+    display: block;
+    clear: both;
+    font-size: 85%;
+}
+
+.titulo{
+    margin-top: -7%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.titulof{
+    margin-bottom: 10%;
+}
+
+.titulo2p{
+    margin-top: 1%;
+     margin-bottom: 2%;
+    text-align: center;
+}
+.textoPortada{
+     text-align: center;
+     margin: 1% 5% 1% 5%;
+}
+
+.textoPortada2{
+     text-align: center;
+     margin: 1% 25% 3% 25%;
+}
+
+.bloquetextoP2{
+    background: rgba(214,214,214,0.5);
+}
+
+#subirFichero,#subirFuncion,#subirImagen{
+    display: none;
+}
+
+.subir{
+    padding: 5px 10px;
+    background: #f55d3e;
+    color:#fff;
+    border:0px solid #fff;
+}
+
+.subir:hover{
+    color:#fff;
+    background: #f7cb15;
+}
+
+.enviar{
+    text-align: center;
+    margin: 15% auto 1% auto;
+}
+
+.enviarf{
+    margin-bottom: 10%;
+}
+
+.centrado{
+    text-align: center
+}
+
+.botonMapa{
+    display: block;
+    margin: 8% auto 0% auto;
+    padding: 3px 10px;
+    background: #f55d3e;
+    color:#fff;
+    border: none;
+}
+
+.zonaMapa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(210,255,255,0.2);
+    display: none;
+    margin: auto;
+}
+.mapa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 60%;
+}
+
+.cerrarMapa{
+    text-align: right;
+    margin-bottom: 1px;
+}
+
+#botonCerrarMapa{
+    border: none;
+    background: rgba(214,214,214,0.1);
+}
+
+
+
+
+
+
+

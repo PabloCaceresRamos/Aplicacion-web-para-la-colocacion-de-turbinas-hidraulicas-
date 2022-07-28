@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-mar-2021, 21:11:42
+    Author     : pablo
+*/
+
+.titulo{
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.centrado{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img{
+    display: block;
+    width: 80%;
+    height: auto;
+    
+}
+
+.marcador{
+    display: block;
+    background: rgba(255, 165, 0,0.8);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    clear: both;
+}
+
+.noTurbinas{
+    display: block;
+    background: rgba(224,255,255,1);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.botonPotenciaAnual{
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#error{
+    color: red;
+    display: none;
+}
+
+.carousel-control-prev-icon {
+ background-color : blue;   
+}
+
+.carousel-control-next-icon {
+ background-color : blue;   
+}

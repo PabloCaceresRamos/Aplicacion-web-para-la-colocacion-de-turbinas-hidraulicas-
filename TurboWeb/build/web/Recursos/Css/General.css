@@ -1,0 +1,31 @@
+
+
+footer{
+    width: 100%;
+    text-align: right;
+    background-color:#050505;
+    color: white;
+    margin-top: 10px;
+}
+
+.botonNav{
+    text-decoration: none;
+    color: black;
+}
+
+.mensajehome{
+    text-align: center;
+    display: block;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    background: rgba(214,214,214,0.8);
+}
+
+.mensajeErrorhome{
+    text-align: center;
+    display: block;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    background: rgba(214,214,214,0.8);
+    color: red;
+}
